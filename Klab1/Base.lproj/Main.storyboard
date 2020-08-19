@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ah4-kf-gpo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf6-GT-Nzn">
+                                <rect key="frame" x="98.5" y="395.5" width="217" height="105.5"/>
+                                <string key="text">Vi ønsker å vise dere 
+de mange mulighetene
+som finnes etter 
+ungdomsskolen</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velkommen til Karrierelaben!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzj-rs-YHf">
+                                <rect key="frame" x="0.5" y="254.5" width="413" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dE-9o-BSB">
+                                <rect key="frame" x="107.5" y="601" width="199" height="30"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Trykk her for å komme i gang"/>
+                                <connections>
+                                    <segue destination="cZd-fG-U77" kind="show" id="a9B-d0-cgA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jf6-GT-Nzn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NVI-vT-1qt"/>
+                            <constraint firstItem="2dE-9o-BSB" firstAttribute="top" secondItem="Jf6-GT-Nzn" secondAttribute="bottom" constant="100" id="OKN-6F-gXB"/>
+                            <constraint firstItem="2dE-9o-BSB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QsM-43-NPm"/>
+                            <constraint firstItem="Jf6-GT-Nzn" firstAttribute="top" secondItem="bzj-rs-YHf" secondAttribute="bottom" constant="100" id="W2u-BN-eto"/>
+                            <constraint firstItem="bzj-rs-YHf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aYj-3A-yc6"/>
+                            <constraint firstItem="Jf6-GT-Nzn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jLf-l3-5Fu"/>
+                            <constraint firstItem="Jf6-GT-Nzn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oBN-6e-6DM"/>
+                            <constraint firstItem="Jf6-GT-Nzn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vsh-FR-EC8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OhK-F6-TNF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="92.410714285714278"/>
+        </scene>
+        <!--Bygg-->
+        <scene sceneID="PjB-gf-gjZ">
+            <objects>
+                <viewController id="Oub-4d-aH0" customClass="Bygg" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k36-uN-q0c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ad3-4L-aE1">
+                                <rect key="frame" x="89" y="424" width="236" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Informasjonsvideo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU7-zF-GVH">
+                                <rect key="frame" x="141.5" y="502" width="131" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Aktiviteter"/>
+                                <connections>
+                                    <segue destination="UBp-Q5-cL6" kind="show" id="wWq-sK-sRf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bygg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtI-m2-hmb">
+                                <rect key="frame" x="162.5" y="276" width="89" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ad3-4L-aE1" firstAttribute="centerX" secondItem="k36-uN-q0c" secondAttribute="centerX" id="6Y9-vo-5Re"/>
+                            <constraint firstItem="ad3-4L-aE1" firstAttribute="top" secondItem="dtI-m2-hmb" secondAttribute="bottom" constant="100" id="9NW-Ft-58k"/>
+                            <constraint firstItem="OU7-zF-GVH" firstAttribute="top" secondItem="ad3-4L-aE1" secondAttribute="bottom" constant="30" id="GG7-Lm-vjw"/>
+                            <constraint firstItem="dtI-m2-hmb" firstAttribute="centerX" secondItem="k36-uN-q0c" secondAttribute="centerX" id="QRP-ZJ-tm4"/>
+                            <constraint firstItem="OU7-zF-GVH" firstAttribute="centerX" secondItem="k36-uN-q0c" secondAttribute="centerX" id="Xe4-rY-yOk"/>
+                            <constraint firstItem="ad3-4L-aE1" firstAttribute="centerY" secondItem="k36-uN-q0c" secondAttribute="centerY" id="tdW-0D-Xwe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ww3-Ta-kfg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6ig-mJ-Q6f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2K-mk-Pov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="-588"/>
+        </scene>
+        <!--Bygg aktiviteter-->
+        <scene sceneID="LJT-mO-6ug">
+            <objects>
+                <viewController id="UBp-Q5-cL6" customClass="Bygg_aktiviteter" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="scc-Cd-vJz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aktiviteter Bygg " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7G-ne-CSA">
+                                <rect key="frame" x="68" y="276" width="278.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcq-MF-jNA">
+                                <rect key="frame" x="144" y="424" width="126" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Rørlegger"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pom-uH-4Ef">
+                                <rect key="frame" x="169" y="502" width="76" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Murer"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vet-SO-Dq7">
+                                <rect key="frame" x="161" y="580" width="92" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Anlegg"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pom-uH-4Ef" firstAttribute="top" secondItem="fcq-MF-jNA" secondAttribute="bottom" constant="30" id="H2L-Hg-dKq"/>
+                            <constraint firstItem="fcq-MF-jNA" firstAttribute="centerX" secondItem="scc-Cd-vJz" secondAttribute="centerX" id="J1f-Pd-cej"/>
+                            <constraint firstItem="Vet-SO-Dq7" firstAttribute="top" secondItem="pom-uH-4Ef" secondAttribute="bottom" constant="30" id="Rci-sH-Ya4"/>
+                            <constraint firstItem="S7G-ne-CSA" firstAttribute="centerX" secondItem="scc-Cd-vJz" secondAttribute="centerX" id="Vou-aX-zLu"/>
+                            <constraint firstItem="fcq-MF-jNA" firstAttribute="top" secondItem="S7G-ne-CSA" secondAttribute="bottom" constant="100" id="a6R-VR-0YJ"/>
+                            <constraint firstItem="fcq-MF-jNA" firstAttribute="centerY" secondItem="scc-Cd-vJz" secondAttribute="centerY" id="bq4-Ea-JcB"/>
+                            <constraint firstItem="Vet-SO-Dq7" firstAttribute="centerX" secondItem="scc-Cd-vJz" secondAttribute="centerX" id="gKY-On-Nty"/>
+                            <constraint firstItem="pom-uH-4Ef" firstAttribute="centerX" secondItem="scc-Cd-vJz" secondAttribute="centerX" id="xbe-8n-rhv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="J4U-8S-re6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JTF-Ug-4RG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eto-nt-PRe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2552" y="-589"/>
+        </scene>
+        <!--Modul-->
+        <scene sceneID="8P5-wh-1iF">
+            <objects>
+                <viewController id="cZd-fG-U77" customClass="Modul" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aty-2r-IfY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbP-Kl-sus">
+                                <rect key="frame" x="170" y="424" width="74" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Helse"/>
+                                <connections>
+                                    <segue destination="Box-cT-suQ" kind="show" id="RP9-I9-Guu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1a-Dg-v15">
+                                <rect key="frame" x="173.5" y="502" width="67" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Bygg"/>
+                                <connections>
+                                    <segue destination="Oub-4d-aH0" kind="show" id="FqP-1y-un0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SF5-6P-Pc3">
+                                <rect key="frame" x="166" y="580" width="82" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Energi"/>
+                                <connections>
+                                    <segue destination="c7z-OF-4fC" kind="show" id="cc8-gO-0IR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velg modul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C67-d2-0xz">
+                                <rect key="frame" x="112" y="276" width="190" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vbP-Kl-sus" firstAttribute="top" secondItem="C67-d2-0xz" secondAttribute="bottom" constant="100" id="4rz-if-GqC"/>
+                            <constraint firstItem="T1a-Dg-v15" firstAttribute="top" secondItem="vbP-Kl-sus" secondAttribute="bottom" constant="30" id="82d-bk-ZpU"/>
+                            <constraint firstItem="vbP-Kl-sus" firstAttribute="centerX" secondItem="Aty-2r-IfY" secondAttribute="centerX" id="AtZ-8h-hPe"/>
+                            <constraint firstItem="SF5-6P-Pc3" firstAttribute="top" secondItem="T1a-Dg-v15" secondAttribute="bottom" constant="30" id="DLV-sb-Lfg"/>
+                            <constraint firstItem="C67-d2-0xz" firstAttribute="centerX" secondItem="Aty-2r-IfY" secondAttribute="centerX" id="Kio-CK-JBo"/>
+                            <constraint firstItem="T1a-Dg-v15" firstAttribute="centerX" secondItem="Aty-2r-IfY" secondAttribute="centerX" id="Vco-ls-04z"/>
+                            <constraint firstItem="SF5-6P-Pc3" firstAttribute="centerX" secondItem="Aty-2r-IfY" secondAttribute="centerX" id="nvL-Q9-zdA"/>
+                            <constraint firstItem="vbP-Kl-sus" firstAttribute="centerY" secondItem="Aty-2r-IfY" secondAttribute="centerY" id="xnz-dD-euM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qIm-xR-kph"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CfF-zk-vKL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYh-GD-fnp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1791" y="89"/>
+        </scene>
+        <!--Energi-->
+        <scene sceneID="EEe-kZ-gYi">
+            <objects>
+                <viewController id="c7z-OF-4fC" customClass="Energi" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fen-io-sPt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Energi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ue7-3U-69P">
+                                <rect key="frame" x="152" y="275" width="110.5" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkf-Aa-UAY">
+                                <rect key="frame" x="89" y="424" width="236" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Informasjonsvideo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv1-Bm-oNz">
+                                <rect key="frame" x="141.5" y="502" width="131" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Aktiviteter"/>
+                                <connections>
+                                    <segue destination="l6m-BY-Zyp" kind="show" id="tj9-Wb-phk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Phg-5J-ok3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cza-OM-jJd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsw-ex-4Fq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789.8550724637682" y="767.41071428571422"/>
+        </scene>
+        <!--Energi aktiviteter-->
+        <scene sceneID="EZ4-cQ-P1w">
+            <objects>
+                <viewController id="l6m-BY-Zyp" customClass="Energi_aktiviteter" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1SU-Aa-Qco">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gir-8h-Eiz">
+                                <rect key="frame" x="181" y="424" width="52" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Hus"/>
+                                <connections>
+                                    <segue destination="baW-gd-ckZ" kind="show" id="RoE-Fo-juB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQH-k4-1r1">
+                                <rect key="frame" x="142" y="502" width="130" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Aktivitet 2"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aktiviteter Energi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb4-eS-KvC">
+                                <rect key="frame" x="62.5" y="276" width="289" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="rmu-VS-App"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8E1-tH-X4L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLu-0Z-0fi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2531" y="762"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JIv-3u-L7A">
+            <objects>
+                <viewController id="baW-gd-ckZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3iL-PD-KhI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="house_drawing_tutorial.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Jw-AJ-eK6">
+                                <rect key="frame" x="0.0" y="249" width="414" height="352"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Wdo-EO-TGn"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AXs-Ip-epH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKS-2V-rgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3337.68115942029" y="760.71428571428567"/>
+        </scene>
+        <!--Helse-->
+        <scene sceneID="QSa-DQ-pPO">
+            <objects>
+                <viewController id="Box-cT-suQ" customClass="Helse" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQn-9B-ByM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9G-RT-ulZ">
+                                <rect key="frame" x="141.5" y="502" width="131" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Aktiviteter"/>
+                                <connections>
+                                    <segue destination="LyR-E5-Glr" kind="show" id="VC6-xz-rtr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Helse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiY-SN-nYH">
+                                <rect key="frame" x="158" y="276" width="98" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-r9-GBv">
+                                <rect key="frame" x="89" y="424" width="236" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Informasjonsvideo"/>
+                                <connections>
+                                    <action selector="helseInfo:" destination="Box-cT-suQ" eventType="touchUpInside" id="t6m-u3-zBR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4Fz-r9-GBv" firstAttribute="centerY" secondItem="LQn-9B-ByM" secondAttribute="centerY" id="GLG-Nz-41k"/>
+                            <constraint firstItem="a9G-RT-ulZ" firstAttribute="top" secondItem="4Fz-r9-GBv" secondAttribute="bottom" constant="30" id="QL5-9b-Pht"/>
+                            <constraint firstItem="hiY-SN-nYH" firstAttribute="centerX" secondItem="LQn-9B-ByM" secondAttribute="centerX" id="WVb-3P-7SI"/>
+                            <constraint firstItem="a9G-RT-ulZ" firstAttribute="centerX" secondItem="LQn-9B-ByM" secondAttribute="centerX" id="tyH-GX-LBz"/>
+                            <constraint firstItem="4Fz-r9-GBv" firstAttribute="centerX" secondItem="LQn-9B-ByM" secondAttribute="centerX" id="xeC-21-kJe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e7N-oX-G47"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CJo-8r-meJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uJ-0A-hup" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2538" y="87"/>
+        </scene>
+        <!--Helse aktiviteter-->
+        <scene sceneID="7Js-92-ASr">
+            <objects>
+                <viewController id="LyR-E5-Glr" customClass="Helse_aktiviteter" customModule="Klab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HZg-bU-jvT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aktiviteter Helse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05O-CU-VbX">
+                                <rect key="frame" x="67.5" y="276" width="279" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="png-rU-gyh">
+                                <rect key="frame" x="136.5" y="424" width="141" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Pulsmåling"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xL-t4-mt2">
+                                <rect key="frame" x="131" y="502" width="152" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Anne dukke"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpS-YF-wh3">
+                                <rect key="frame" x="169.5" y="580" width="75" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Video"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="05O-CU-VbX" firstAttribute="centerX" secondItem="HZg-bU-jvT" secondAttribute="centerX" id="3E4-Cc-d9p"/>
+                            <constraint firstItem="2xL-t4-mt2" firstAttribute="top" secondItem="png-rU-gyh" secondAttribute="bottom" constant="30" id="B8C-UK-cab"/>
+                            <constraint firstItem="TpS-YF-wh3" firstAttribute="top" secondItem="2xL-t4-mt2" secondAttribute="bottom" constant="30" id="BDV-VN-q6A"/>
+                            <constraint firstItem="png-rU-gyh" firstAttribute="top" secondItem="05O-CU-VbX" secondAttribute="bottom" constant="100" id="Hki-L8-KPs"/>
+                            <constraint firstItem="png-rU-gyh" firstAttribute="centerY" secondItem="HZg-bU-jvT" secondAttribute="centerY" id="QwD-6i-pjb"/>
+                            <constraint firstItem="05O-CU-VbX" firstAttribute="centerX" secondItem="HZg-bU-jvT" secondAttribute="centerX" id="dA6-M7-6eo"/>
+                            <constraint firstItem="2xL-t4-mt2" firstAttribute="centerX" secondItem="HZg-bU-jvT" secondAttribute="centerX" id="hMh-zs-PDb"/>
+                            <constraint firstItem="png-rU-gyh" firstAttribute="centerX" secondItem="HZg-bU-jvT" secondAttribute="centerX" id="jAu-ha-gs4"/>
+                            <constraint firstItem="TpS-YF-wh3" firstAttribute="centerX" secondItem="HZg-bU-jvT" secondAttribute="centerX" id="o9z-Od-AT5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xad-7X-fSB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XRg-zJ-ah5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sea-br-nLB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3338" y="84"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CF7-Cz-rVM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ah4-kf-gpo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ScA-Kv-Nhf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zgz-Ql-37W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jr4-Q0-KrJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="92.410714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house_drawing_tutorial.png" width="560" height="400"/>
+    </resources>
+</document>
